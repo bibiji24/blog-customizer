@@ -2,6 +2,7 @@ import arrow from 'src/images/arrow.svg';
 
 import styles from './ArrowButton.module.scss';
 import clsx from 'clsx';
+import { SyntheticEvent } from 'react';
 
 /** Функция для обработки открытия/закрытия формы */
 export type OnClick = () => void;
